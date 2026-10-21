@@ -1,0 +1,31 @@
+# Framework y Servidor
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# Base de Datos y ORM
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.9
+psycopg[binary]>=3.1.0
+
+# Configuración y Entorno
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# Seguridad y Autenticación
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.0.0
+
+# Supabase (Storage y API)
+supabase>=2.0.0
+
+# Google Cloud Vision (OCR)
+google-cloud-vision>=3.0.0
+
+# Zonas Horarias (Requerido en Windows para zoneinfo)
+tzdata>=2024.1
+
+# HTTP y Utilidades
+requests>=2.31.0

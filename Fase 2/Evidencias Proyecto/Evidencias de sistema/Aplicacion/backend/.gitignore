@@ -1,0 +1,14 @@
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Llaves y credenciales
+*.json
+vision-key.json
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+venv/
+.pytest_cache/
